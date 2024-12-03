@@ -1,0 +1,49 @@
+*Branch
+-{Master} = user rasain langsung fiturnya
+-{stagging} = 1 : 1 dengan master namun bedanya datanya ({stagging} = dummy data) 
+-{develop} = tempat experimen
+
+
+jika ingin membuat fitur baru ambil dari {master} dan buat new branch
+
+*branch naming tidak sembarangan
+-feat
+-fix
+-hotfix
+-doc
+-test
+-refactor
+
+/
+
+card atau task id
+
+/
+
+simple description
+
+
+***Contoh :
+
+-feat/LOG-321/login-page
+
+-fix/LOG-322/fix-disable-button
+
+*penjelasan = 
+fix = prefixnya
+LOG-... = kode projek
+dix-disable-button = simple description
+
+-selanjutnya merge ke {develop} maka QA akan tes
+-selanjutnya bila sudah OK/PASS maka senior akan melakukan merge ke {stagging} dan {master}
+-maka branch log dihapus ketika user sudah dapat berinteraksi dengan fiturnya
+
+***Commit message example :
+
+-git commit -m 'feat/LOG-100/login-page/create login UI'
+-git commit -m 'feat/LOG-100/login-page/comsume login API'
+
+*pada akhir path message berikan deskripsi lebih lengkapnya 
+
+1
+
