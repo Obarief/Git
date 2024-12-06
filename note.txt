@@ -47,3 +47,10 @@ dix-disable-button = simple description
 
 1
 
+**PENTING**
+sebelum mulai mengerjakan maka update lokal dengan pull req
+lalu buat branch baru 
+commit dan push ke branch baru 
+minta review code sebelum merge
+merge ke branch utama
+hapus branch sebelumnya (mksdnya branch yg menjadi workspace kita)
